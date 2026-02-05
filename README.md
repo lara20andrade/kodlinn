@@ -55,6 +55,16 @@ fun main() {
     var taxa_juros= 1.0
     var valor = valor_prestacao * (1 + (taxa_juros / 100) * meses_atrasado)
 
+### 6 Estrutura_Sequencial
+fun main() {
+    var a = 4
+    var b = 5
+    var troca = a
+    a = b
+    b = troca
+    print( "Após a troca - a = $a, b = $b")
+   
+}
 ### 7 Estrutura_Sequencial
 fun main() {
     
