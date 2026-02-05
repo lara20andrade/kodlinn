@@ -55,6 +55,24 @@ fun main() {
     var taxa_juros= 1.0
     var valor = valor_prestacao * (1 + (taxa_juros / 100) * meses_atrasado)
 
+### 7 Estrutura_Sequencial
+fun main() {
+    
+    var variavel_1 = 1
+    var variavel_2 = 2
+    var variavel_3 = 3
+    var variavel_4 = 4
+    
+    
+    var adição = (variavel_1 + variavel_2 + variavel_3 + variavel_4)
+    
+    var multiplicação = (variavel_1 * variavel_2 * variavel_3 * variavel_4)
+    
+    println("O resultado da adição é: $adição")
+    
+    println("O resultado da multiplicação é: $multiplicação")
+}
+
 ### 8 Estrutura_Sequencial
 fun main() {
    
@@ -114,6 +132,54 @@ fun main() {
    
     print(resultado)
 }
+
+### 13 Estrutura_Sequencial
+fun main() {
+    
+    var valor_númerico1 = 1
+    var valor_númerico2 = 5
+    var valor_númerico3 = 6
+    
+    var soma_dos_quadrados = (valor_númerico1 * valor_númerico1) + (valor_númerico2 * valor_númerico2)  + (valor_númerico3 * valor_númerico3)
+    
+
+    print(soma_dos_quadrados)
+  
+}
+
+### 14 Estrutura_Sequencial
+fun main() {
+    
+    var valor_númerico1 = 2
+    var valor_númerico2 = 3
+    var valor_númerico3 = 4
+    
+    var soma_dos_valores = (valor_númerico1 + valor_númerico2 + valor_númerico3)
+    
+    var resultado = (soma_dos_valores * soma_dos_valores)
+    
+
+    print(resultado)
+  
+}
+
+### 15 Estrutura_Sequencial
+fun main() {
+    
+    var valor_1 = 2
+    var valor_2 = 3
+    var valor_3 = 4
+    var valor_4 = 5
+    
+    var produto = (valor_1 * valor_3)
+    
+    var soma = (valor_2 + valor_4)
+    
+
+    println("Produto é igual: $produto, Soma é igual: $soma")
+   
+}
+
 
 ### 16 Estrutura_Sequencial
 fun main() {
