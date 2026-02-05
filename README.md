@@ -75,7 +75,7 @@ fun main() {
     
     
     var adição = (variavel_1 + variavel_2 + variavel_3 + variavel_4)
-    
+
     var multiplicação = (variavel_1 * variavel_2 * variavel_3 * variavel_4)
     
     println("O resultado da adição é: $adição")
@@ -266,6 +266,21 @@ fun main() {
     println(velocidade)
 }
 
+### 21 EStrutura_Sequencial
+fun main() {
+
+    val valorBase = 2
+    val valorExpoente = 3
+
+    var potencia = 1
+
+    for (i in 1..valorExpoente) {
+        potencia *= valorBase
+    }
+
+    print(potencia)
+   
+}
 ### 22 Estrutura_Sequencial
 fun main() {
     val raio = 5.0
@@ -308,6 +323,35 @@ fun main() {
     print(resultado_quadrado)
     println ("($valor_númerico1 / $valor_númerico2 = $resultado_divisão, $resultado_divisão * $resultado_divisão = $resultado_quadrado)")
 
+}
+
+### 28 Estrutura_Sequencial
+fun main() {
+
+val numero = -5
+
+if (numero > 0) {
+    println("O número é positivo")
+} else if (numero < 0) {
+    println("O número é negativo")
+} else {
+    println("O número é neutro (zero)")
+}
+
+### 29 Estrutura_Sequencial
+fun main() {
+
+val nota1 = 7
+val nota2 = 6
+val nota3 = 4
+val nota4 = 5
+
+val media = (nota1 + nota2 + nota3 + nota4) / 4.0
+
+if (media >= 5) {
+    println("Média: $media, aprovada")
+} else {
+    println("Média: $media, reprovada")
 }
 
 
